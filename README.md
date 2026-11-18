@@ -183,3 +183,6 @@ então cabe aos cálculos decidir qual e a solução ótima.
 120 . 40 + 100 . 10 = 5. 800 ( corresponde as restrições) 
 
 Logo; 40 A , 10 B e a solução ótima. 
+
+
+# Programação Linear no Solver
