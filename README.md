@@ -7,8 +7,10 @@ O objetivo deste registro é consolidar o aprendizado por meio de problemas de M
 Para decidir entre as alternativas de solução, o decisor deverá utilizar algum procedimento/metodologia para escolher a “melhor solução” que poderá ser aplicada. 
 No meio quantitativo, a metodologia aplicada e a Modelagem que e o processo de selecionar as informações que interessam para conseguir fazer a melhor escolha de acordo com a matemática.
 
-##Vendedor de meias
+## Vendedor de meias
+
 📌 Aqui nos temos o problema:
+
 "Um vendedor de meias possui:​ 84 pares de meias de lã​ e 24 pares de meias de algodão. Porém os clientes compram Kits de meias, os Kits são compostos da seguinte forma:
 ​
 
@@ -44,6 +46,6 @@ R1: 2.A + 2.B <= 24
 
 R2: 4.A + 8.B <= 84
 
-Aplicando ela para o Excel, nos fazemos uma tabela de possibilidades e um gráfico linear, onde as linhas se conectam e a “melhor solução” :
-<img width="928" height="617" alt="image" src="https://github.com/user-attachments/assets/0832e898-a177-4e45-ac58-3eef83110fc9" />
+📊 Aplicando ela para o Excel, nos fazemos uma tabela de possibilidades e um gráfico linear, onde as linhas se conectam e a “melhor solução” :
+<img width="728" height="417" alt="image" src="https://github.com/user-attachments/assets/0832e898-a177-4e45-ac58-3eef83110fc9" />
 
