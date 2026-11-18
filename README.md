@@ -27,6 +27,7 @@ Primeiro fazemos a modelagem:
 Nosso objetivo é determinar a quantidade a ser vendida de cada Kit para gerar a maior margem de lucro, considerando a quantidade disponível de cada tipo de meia.
 Identifique as variáveis de decisão: 
 ​
+
 A = quantidade a ser vendida do Kit A
 ​
 B = quantidade a ser vendida do Kit B
