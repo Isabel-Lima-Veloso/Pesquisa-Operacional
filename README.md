@@ -9,24 +9,29 @@ No meio quantitativo, a metodologia aplicada e a Modelagem que e o processo de s
 
 ##Vendedor de meias
 Aqui nos temos o problema:
-"Um vendedor de meias possui:​ 84 pares de meias de lã​ e 24 pares de meias de algodão. Porém os clientes compram Kits de meias, os Kits são compostos da seguinte forma:​
-Kit A - 2 pares de meias de algodão e 4 pares de meias de lã​
+"Um vendedor de meias possui:​ 84 pares de meias de lã​ e 24 pares de meias de algodão. Porém os clientes compram Kits de meias, os Kits são compostos da seguinte forma:
+​
+Kit A - 2 pares de meias de algodão e 4 pares de meias de lã​.
+
 Kit B - 8 pares de meias de lã e 2 pares de meias algodão​.
+
 A margem de lucro de cada Kit é:​
-Kit A = R$6,00​ e o Kit B = R$8,00​
+Kit A = R$6,00​ e o Kit B = R$8,00
+​
 Qual deve ser a quantidade vendida de cada Kit para gerar a maior margem de lucro?"
 
 
 Primeiro fazemos a modelagem:
 Nosso objetivo é determinar a quantidade a ser vendida de cada Kit para gerar a maior margem de lucro, considerando a quantidade disponível de cada tipo de meia.
-Identifique as variáveis de decisão: ​
-A = quantidade a ser vendida do Kit A​
+Identifique as variáveis de decisão: 
+​
+A = quantidade a ser vendida do Kit A
+​
 B = quantidade a ser vendida do Kit B
+
 Escreva a função objetivo (Representar o lucro por uma função linear, indicando que o objetivo é maximizar​)
-Max: 6,00.A + 8,00.B
+
 Escreva as restrições (representar por uma função linear a quantidade necessária de cada tipo de meia, para atender os kits, e sua relação com a quantidade disponível de cada uma)​
-R1: 2.A + 2.B <= 24​
-R2: 4.A + 8.B <= 84
 A modelagem final é:
 Max: 6,00.A + 8,00.B
 R1: 2.A + 2.B <= 24​
