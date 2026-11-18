@@ -94,3 +94,4 @@ R2: 2.M + 1.A <= 8
 
 📊 Aplicando ela para o Excel, nos fazemos uma tabela de possibilidades e um gráfico linear, onde as linhas se conectam e a “melhor solução” :
 <img width="728" height="417" alt="image" src="https://github.com/user-attachments/assets/e382e463-85ff-4a9f-9891-ac84faad282a" />
+MUDAR IMAGEM ;)
