@@ -10,6 +10,8 @@ No meio quantitativo, a metodologia aplicada e a Modelagem que e o processo de s
 📊 Arquivo do próprio excel, sobre esse desenvolvimento :
 
 📌 Vendedor e Marcenaria : [P.O , bonitinho.xlsx](https://github.com/user-attachments/files/35040988/P.O.bonitinho.xlsx)
+
+
 📌 Modelo pronto e Carpinteiro : 
 
 ## Vendedor de meias
