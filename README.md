@@ -8,7 +8,7 @@ Para decidir entre as alternativas de solução, o decisor deverá utilizar algu
 No meio quantitativo, a metodologia aplicada e a Modelagem que e o processo de selecionar as informações que interessam para conseguir fazer a melhor escolha de acordo com a matemática.
 
 ##Vendedor de meias
-Aqui nos temos o problema:
+📌 Aqui nos temos o problema:
 "Um vendedor de meias possui:​ 84 pares de meias de lã​ e 24 pares de meias de algodão. Porém os clientes compram Kits de meias, os Kits são compostos da seguinte forma:
 ​
 
@@ -16,8 +16,7 @@ Kit A - 2 pares de meias de algodão e 4 pares de meias de lã​.
 
 Kit B - 8 pares de meias de lã e 2 pares de meias algodão​.
 
-A margem de lucro de cada é:​
-Kit A = R$6,00​ e o Kit B = R$8,00.
+A margem de lucro de cada é:​ Kit A = R$6,00​ e o Kit B = R$8,00.
 ​
 
 Qual deve ser a quantidade vendida de cada Kit para gerar a maior margem de lucro?"
@@ -30,6 +29,7 @@ Identifique as variáveis de decisão:
 
 A = quantidade a ser vendida do Kit A
 ​
+
 B = quantidade a ser vendida do Kit B
 
 Escreva a função objetivo (Representar o lucro por uma função linear, indicando que o objetivo é maximizar​)
@@ -43,3 +43,7 @@ R1: 2.A + 2.B <= 24
 ​
 
 R2: 4.A + 8.B <= 84
+
+Aplicando ela para o Excel, nos fazemos uma tabela de possibilidades e um gráfico linear, onde as linhas se conectam e a “melhor solução” :
+<img width="928" height="617" alt="image" src="https://github.com/user-attachments/assets/0832e898-a177-4e45-ac58-3eef83110fc9" />
+
