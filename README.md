@@ -17,8 +17,9 @@ Kit A - 2 pares de meias de algodão e 4 pares de meias de lã​.
 Kit B - 8 pares de meias de lã e 2 pares de meias algodão​.
 
 A margem de lucro de cada é:​
-Kit A = R$6,00​ e o Kit B = R$8,00
+Kit A = R$6,00​ e o Kit B = R$8,00.
 ​
+
 Qual deve ser a quantidade vendida de cada Kit para gerar a maior margem de lucro?"
 
 
@@ -34,8 +35,10 @@ Escreva a função objetivo (Representar o lucro por uma função linear, indica
 
 Escreva as restrições (representar por uma função linear a quantidade necessária de cada tipo de meia, para atender os kits, e sua relação com a quantidade disponível de cada uma)​
 A modelagem final é:
+
 Max: 6,00.A + 8,00.B
 
 R1: 2.A + 2.B <= 24
 ​
+
 R2: 4.A + 8.B <= 84
