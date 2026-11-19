@@ -48,6 +48,7 @@ O objetivo é determinar a quantidade a ser vendida de cada Kit para gerar a mai
 
 <sub> Escreva as restrições (representar por uma função linear a quantidade necessária de cada tipo de meia, para atender os kits, e sua relação com a quantidade disponível de cada uma)
 ​
+
 A modelagem final é:
 
 Max: 6,00.A + 8,00.B
@@ -89,6 +90,7 @@ O objetivo é determinar a quantidade a produzir de cada produto para gerar a ma
 <sub> A = quantidade a produzir de Armário 
 
 <sub> Escreva a função objetivo e as restrições.
+
 
 A modelagem final é:
 
@@ -158,6 +160,7 @@ O objetivo é determinar a quantidade a produzir de cada produto para gerar a ma
 
 <sub> Escreva a função objetivo e as restrições.
 
+
 A modelagem final é:
 
 Max: 120 . A + 100 . B 
@@ -216,6 +219,7 @@ O objetivo é determinar a quantidade a produzir de cada produto para gerar a ma
 <sub> Y = Quantidade de Vestido para produzir 
 
 <sub> Escreva a função objetivo e as restrições.
+
 
 A modelagem final é:
 
