@@ -228,10 +228,15 @@ Seda =	1 . X + 2 . Y <= 11
 
 La = 	1 . X + 3 . Y <= 15
 
-📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada :
+📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada:
+
 <img width="376" height="181" alt="image" src="https://github.com/user-attachments/assets/325b38b5-a433-4922-9611-47be14768a3c" />
+
 E utilizamos o Solver para encontrar a “melhor solução”: 
-<img width="557" height="586" alt="image" src="https://github.com/user-attachments/assets/ff903104-84e0-4b8f-8d56-0420aa1be4de" />
+
+<img width="357" height="386" alt="image" src="https://github.com/user-attachments/assets/ff903104-84e0-4b8f-8d56-0420aa1be4de" />
+
 Resultado:
+
 <img width="374" height="180" alt="image" src="https://github.com/user-attachments/assets/eebcb439-4bb5-4e70-b971-fcafb986ca40" />
 
