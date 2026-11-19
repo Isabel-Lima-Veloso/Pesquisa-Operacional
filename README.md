@@ -1,10 +1,11 @@
 # Pesquisa-Operacional
-Este espaço reúne os projetos práticos e relatórios desenvolvidos durante a disciplina de Pesquisa Operacional, ministrado pelo professor Carlos Eduardo Bastos no 2º semestre de Gestão de Produção Industrial (GPI).
+<sub> Este espaço reúne os projetos práticos e relatórios desenvolvidos durante a disciplina de Pesquisa Operacional, ministrado pelo professor Carlos Eduardo Bastos no 2º semestre de Gestão de Produção Industrial (GPI).
 
 O objetivo deste registro é consolidar o aprendizado por meio de problemas de Modelagem Linear, Programação e Aplicações​, Problemas de Transporte e Transbordo​ e a Teoria das Filas, utilizando ferramentas de mercado como Excel.
 
 # Modelagem Linear e Gráfico 
 Para decidir entre <u> poucas alternativas de solução </u> , o decisor deverá utilizar algum procedimento/metodologia para escolher a “melhor solução” que poderá ser aplicada. 
+
 No meio quantitativo, a metodologia aplicada quando tem poucas alternativas e a Modelagem que e o processo de selecionar as informações que interessam para conseguir fazer a melhor escolha de acordo com a matemática, juntamente da criação de um Gráfico para achar a região viável e então a “melhor solução”.
 
 📊 Arquivo do próprio excel, sobre esse desenvolvimento :
@@ -12,7 +13,8 @@ No meio quantitativo, a metodologia aplicada quando tem poucas alternativas e a 
 📌 Vendedor e Marcenaria : [P.O , bonitinho.xlsx](https://github.com/user-attachments/files/35040988/P.O.bonitinho.xlsx)
 
 
-📌 Modelo pronto e Carpinteiro : 
+📌 Modelo pronto e Carpinteiro : [Atividade 1, GPI, Isabel de Lima Veloso. xlsx.xlsx](https://github.com/user-attachments/files/35067501/Atividade.1.GPI.Isabel.de.Lima.Veloso.xlsx.xlsx) ARRUMAR !!!
+
 
 ## Vendedor de meias
 
@@ -187,7 +189,9 @@ Logo; 40 A , 10 B e a solução ótima.
 
 # Programação Linear
 Para decidir entre <u> diversas alternativas de solução </u> , o decisor deverá utilizar algum procedimento/metodologia para escolher a “melhor solução” que poderá ser aplicada. 
+
 No meio quantitativo, a metodologia aplicada quando há diversas alternativas e o processo de Modelagem e a utilização de ferramentas, no nosso caso o Solver, que de acordo com as informações da Modelagem irá oferecer a “melhor solução”.
 
-📊 Arquivo do próprio excel, sobre esse desenvolvimento :
+📊 Arquivo do próprio excel, sobre esse desenvolvimento : [Pasta3.xlsx](https://github.com/user-attachments/files/35067492/Pasta3.xlsx) ARRUMAR!!!
 
+## Alfaiate
