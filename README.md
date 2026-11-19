@@ -36,17 +36,17 @@ No meio quantitativo, a metodologia aplicada quando tem poucas alternativas e a 
 ### 🧾 Resolução 
 O objetivo é determinar a quantidade a ser vendida de cada Kit para gerar a maior margem de lucro, considerando a quantidade disponível de cada tipo de meia.
 
-Identifique as variáveis de decisão: 
+<sub> Identifique as variáveis de decisão: 
 ​
 
-A = quantidade a ser vendida do Kit A
+<sub> A = quantidade a ser vendida do Kit A
 ​
 
-B = quantidade a ser vendida do Kit B
+<sub> B = quantidade a ser vendida do Kit B
 
-Escreva a função objetivo (Representar o lucro por uma função linear, indicando que o objetivo é maximizar​)
+<sub> Escreva a função objetivo (Representar o lucro por uma função linear, indicando que o objetivo é maximizar​)
 
-Escreva as restrições (representar por uma função linear a quantidade necessária de cada tipo de meia, para atender os kits, e sua relação com a quantidade disponível de cada uma)
+<sub> Escreva as restrições (representar por uma função linear a quantidade necessária de cada tipo de meia, para atender os kits, e sua relação com a quantidade disponível de cada uma)
 ​
 A modelagem final é:
 
@@ -66,29 +66,29 @@ MUDAR IMAGEM ;)
 ## Marcenaria
 📌 Aqui nos temos o problema:
 
-"Uma marcenaria deseja estabelecer uma programação diária de produção. Atualmente, são fabricados apenas dois produtos: ​
+<sub> "Uma marcenaria deseja estabelecer uma programação diária de produção. Atualmente, são fabricados apenas dois produtos: ​
 
-1 modelo de mesa e ​1 modelo de armário.
+<sub> 1 modelo de mesa e ​1 modelo de armário.
 
-A empresa sabe que cada mesa dá uma margem de contribuição para o lucro de $ 4 e cada armário de $ 3.
+<sub> A empresa sabe que cada mesa dá uma margem de contribuição para o lucro de $ 4 e cada armário de $ 3.
 ​
-A marcenaria tem limitações em dois recursos:​ Madeira utilizada e o​ tempo de mão-de-obra.
+<sub> A marcenaria tem limitações em dois recursos:​ Madeira utilizada e o​ tempo de mão-de-obra.
 
-O processo de produção é tal que, para fazer uma ​ mesa, a fábrica gasta 2 m² de madeira e 2 horas de ​mão-de-obra, e para fazer um armário, a fábrica gasta 3 m² de madeira e 1 hora de mão de obra.​
+<sub> O processo de produção é tal que, para fazer uma ​ mesa, a fábrica gasta 2 m² de madeira e 2 horas de ​mão-de-obra, e para fazer um armário, a fábrica gasta 3 m² de madeira e 1 hora de mão de obra.​
 
-Sabendo que a disponibilidade diária de recursos é: 12 m² de madeira e 8 Hh de mão de obra, qual deve ser a quantidade fabricada por dia, de cada produto, para gerar a maior margem de lucro?"
+<sub> Sabendo que a disponibilidade diária de recursos é: 12 m² de madeira e 8 Hh de mão de obra, qual deve ser a quantidade fabricada por dia, de cada produto, para gerar a maior margem de lucro?"
 
 ### 🧾 Resolução 
 O objetivo é determinar a quantidade a produzir de cada produto para gerar a maior margem de lucro, considerando a quantidade disponível de cada recurso.
 
-Identifique as variáveis de decisão:
+<sub> Identifique as variáveis de decisão:
 
-M = quantidade a produzir de Mesa​
+<sub> M = quantidade a produzir de Mesa​
 
 
-A = quantidade a produzir de Armário 
+<sub> A = quantidade a produzir de Armário 
 
-Escreva a função objetivo e as restrições.
+<sub> Escreva a função objetivo e as restrições.
 
 A modelagem final é:
 
@@ -108,7 +108,7 @@ MUDAR IMAGEM ;)
 ## Modelo pronto
 📌 Aqui nos temos o problema simples:
 
-"Considere o modelo de um problema de programação linear apresentado abaixo. 
+<sub> "Considere o modelo de um problema de programação linear apresentado abaixo. 
 
 Max: 3 . A + 4 . B 
 
@@ -118,7 +118,7 @@ R1: 3 . A + 2 . B <= 15
 
 R2: 4 . A + 6 . B <= 30 
 
-Determinar a solução ótima através da resolução gráfica. Qual será o lucro total?"
+<sub> Determinar a solução ótima através da resolução gráfica. Qual será o lucro total?"
 
 ### 🧾 Resolução 
 O objetivo é determinar o lucro, de acordo com a resolução no gráfico linear.
@@ -135,28 +135,28 @@ Max: 3 . 3 + 4 . 3 = 21
 ## Carpinteiro
 📌 Aqui nos temos o problema:
 
-"Um carpinteiro dispõe de 90 metros de compensado, 80 de pinho e 50 de cedro. 
+<sub> "Um carpinteiro dispõe de 90 metros de compensado, 80 de pinho e 50 de cedro. 
 
-O produto A requer 2 metros de compensado, 1 de pinho e 1 de cedro. 
+<sub> O produto A requer 2 metros de compensado, 1 de pinho e 1 de cedro. 
 
-O produto B requer 1, 2 e 1 metros, respectivamente. 
+<sub> O produto B requer 1, 2 e 1 metros, respectivamente. 
 
 
-O produto A é vendido por $120,00 e o B por $100,00. 
+<sub> O produto A é vendido por $120,00 e o B por $100,00. 
 
-Quanto de cada produto ele deve fazer para obter um faturamento máximo?"
+<sub> Quanto de cada produto ele deve fazer para obter um faturamento máximo?"
 
 ### 🧾 Resolução 
 O objetivo é determinar a quantidade a produzir de cada produto para gerar a maior margem de lucro, considerando a quantidade disponível de cada recurso.
 
-Identifique as variáveis de decisão:
+<sub> Identifique as variáveis de decisão:
 
-A = Quantidade de Produto A para produzir 
+<sub> A = Quantidade de Produto A para produzir 
 
 
-B = Quantidade de Produto B para produzir 
+<sub> B = Quantidade de Produto B para produzir 
 
-Escreva a função objetivo e as restrições.
+<sub> Escreva a função objetivo e as restrições.
 
 A modelagem final é:
 
@@ -176,13 +176,13 @@ MUDAR IMAGEM ;)
 
 Porém, esse gráfico nos dá duas "melhores soluções",
 
-20 A , 30 B ou 40 A , 10 B 
+<sub> 20 A , 30 B ou 40 A , 10 B 
 
-então cabe aos cálculos decidir qual e a solução ótima.
+<sub> então cabe aos cálculos decidir qual e a solução ótima.
 
-120 . 20 + 100 . 30 = 5.400 
+<sub> 120 . 20 + 100 . 30 = 5.400 
 
-120 . 40 + 100 . 10 = 5. 800 ( corresponde as restrições) 
+<sub> 120 . 40 + 100 . 10 = 5. 800 ( corresponde as restrições) 
 
 Logo; 40 A , 10 B e a solução ótima. 
 
@@ -195,3 +195,40 @@ No meio quantitativo, a metodologia aplicada quando há diversas alternativas e 
 📊 Arquivo do próprio excel, sobre esse desenvolvimento : [Pasta3.xlsx](https://github.com/user-attachments/files/35067492/Pasta3.xlsx) ARRUMAR!!!
 
 ## Alfaiate
+📌 Aqui nos temos o problema: 
+
+<sub> "Um alfaiate tem disponível os seguintes tecidos: 16 metros de algodão, 11 metros de seda e 15 metros de lã. 
+
+<sub> Para fazer um terno são necessários 2 metros de algodão, 1 metro de seda e 1 metro de lã. 
+
+<sub> Para fazer um vestido, são necessários 1 metro de algodão, 2 metros de seda e 3 metros de lã. 
+
+<sub> Se um terno é vendido por $300,00 e um vestido por $500,00, quantas peças de cada tipo o alfaiate deve fazer, de modo a maximizar o seu lucro?"
+
+### 🧾 Resolução 
+O objetivo é determinar a quantidade a produzir de cada produto para gerar a maior margem de lucro, considerando a quantidade disponível de cada recurso.
+
+<sub> Identifique as variáveis de decisão:
+
+<sub> X = Quantidade de Terno para produzir
+
+
+<sub> Y = Quantidade de Vestido para produzir 
+
+<sub> Escreva a função objetivo e as restrições.
+
+A modelagem final é:
+
+MAX (lucro) = 300 . X + 500 . Y	
+	
+Restrições:
+
+Algodao  =	2 . X + 1 . Y <= 16
+
+Seda =	1 . X + 2 . Y <= 11
+
+La = 	1 . X + 3 . Y <= 15
+
+📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada e utilizamos o Solver para encontrar a “melhor solução” :
+COLOCAR IMAGEM
+
