@@ -10,7 +10,7 @@ No meio quantitativo, a metodologia aplicada quando tem poucas alternativas e a 
 
 📊 Arquivo do próprio excel, sobre esse desenvolvimento :
 
-📌 Vendedor e Marcenaria : [P.O , bonitinho.xlsx](https://github.com/user-attachments/files/35040988/P.O.bonitinho.xlsx)
+📌 Vendedor e Marcenaria : [P.O.xlsx](https://github.com/user-attachments/files/35112139/P.O.xlsx)
 
 
 📌 Modelo pronto e Carpinteiro : [Atividade 1, GPI, Isabel de Lima Veloso. xlsx.xlsx](https://github.com/user-attachments/files/35067501/Atividade.1.GPI.Isabel.de.Lima.Veloso.xlsx.xlsx) ARRUMAR !!!
@@ -61,8 +61,7 @@ Meias de lã: 2.A + 2.B <= 24
 Meias de algodão: 4.A + 8.B <= 84
 
 📊 Aplicando ela para o Excel, nos fazemos uma tabela de possibilidades e um gráfico linear, onde as linhas se conectam e a “melhor solução” :
-<img width="728" height="417" alt="image" src="https://github.com/user-attachments/assets/0832e898-a177-4e45-ac58-3eef83110fc9" />
-MUDAR IMAGEM ;)
+<img width="677" height="445" alt="image" src="https://github.com/user-attachments/assets/0de76b45-ffe6-4dd2-affd-f5491218246b" />
 
 ## Marcenaria
 📌 Aqui nos temos o problema:
@@ -104,8 +103,7 @@ Metros de madeira: 2.M + 3.A <= 12​
 Horas para fabricar: 2.M + 1.A <= 8
 
 📊 Aplicando ela para o Excel, nos fazemos uma tabela de possibilidades e um gráfico linear, onde as linhas se conectam e a “melhor solução” :
-<img width="728" height="417" alt="image" src="https://github.com/user-attachments/assets/e382e463-85ff-4a9f-9891-ac84faad282a" />
-MUDAR IMAGEM ;)
+<img width="680" height="460" alt="image" src="https://github.com/user-attachments/assets/259bad5d-f4cf-4bed-9451-43404179fa32" />
 
 ## Modelo pronto
 📌 Aqui nos temos o problema simples:
@@ -126,8 +124,7 @@ R2: 4 . A + 6 . B <= 30
 O objetivo é determinar o lucro, de acordo com a resolução no gráfico linear.
 
 📊 Aplicando ela para o Excel, nos fazemos uma tabela de possibilidades e um gráfico linear, onde as linhas se conectam e a “melhor solução” :
-<img width="728" height="417" alt="image" src="https://github.com/user-attachments/assets/e84a2af5-22c5-448c-b522-50aa72e38cac" />
-MUDAR IMAGEM ;)
+<img width="491" height="215" alt="image" src="https://github.com/user-attachments/assets/c14d3f9e-17f0-40f5-b497-1f7a97c66d7c" />
 
 De acordo com o gráfico, a resposta perfeita é: 3 A , 3 B 
 
@@ -174,8 +171,7 @@ Metros de pinho : 1 . A + 2 . B <= 80
 Metros de cedro : 1 . A + 1 . B <= 50
 
 📊 Aplicando ela para o Excel, nos fazemos uma tabela de possibilidades e um gráfico linear, onde as linhas se conectam e a “melhor solução” :
-<img width="728" height="417" alt="image" src="https://github.com/user-attachments/assets/d0288a55-a581-417e-82c2-a909c73d85b8" />
-MUDAR IMAGEM ;)
+<img width="496" height="288" alt="image" src="https://github.com/user-attachments/assets/172ac2df-3efb-41cd-a259-8effe5698c1a" />
 
 Porém, esse gráfico nos dá duas "melhores soluções",
 
@@ -188,7 +184,6 @@ Porém, esse gráfico nos dá duas "melhores soluções",
 <sub> 120 . 40 + 100 . 10 = 5. 800 ( corresponde as restrições) 
 
 Logo; 40 A , 10 B e a solução ótima. 
-
 
 # Programação Linear
 Para decidir entre <u> diversas alternativas de solução </u> , o decisor deverá utilizar algum procedimento/metodologia para escolher a “melhor solução” que poderá ser aplicada. 
@@ -233,6 +228,10 @@ Seda =	1 . X + 2 . Y <= 11
 
 La = 	1 . X + 3 . Y <= 15
 
-📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada e utilizamos o Solver para encontrar a “melhor solução” :
-COLOCAR IMAGEM
+📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada :
+<img width="376" height="181" alt="image" src="https://github.com/user-attachments/assets/325b38b5-a433-4922-9611-47be14768a3c" />
+E utilizamos o Solver para encontrar a “melhor solução”: 
+<img width="557" height="586" alt="image" src="https://github.com/user-attachments/assets/ff903104-84e0-4b8f-8d56-0420aa1be4de" />
+Resultado:
+<img width="374" height="180" alt="image" src="https://github.com/user-attachments/assets/eebcb439-4bb5-4e70-b971-fcafb986ca40" />
 
