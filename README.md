@@ -1,5 +1,5 @@
 # Pesquisa-Operacional
-<sub> Este espaço reúne os projetos práticos e relatórios desenvolvidos durante a disciplina de Pesquisa Operacional, ministrado pelo professor Carlos Eduardo Bastos no 2º semestre de Gestão de Produção Industrial (GPI).
+Este espaço reúne os projetos práticos e relatórios desenvolvidos durante a disciplina de Pesquisa Operacional, ministrado pelo professor Carlos Eduardo Bastos no 2º semestre de Gestão de Produção Industrial (GPI).
 
 O objetivo deste registro é consolidar o aprendizado por meio de problemas de Modelagem Linear, Programação e Aplicações​, Problemas de Transporte e Transbordo​ e a Teoria das Filas, utilizando ferramentas de mercado como Excel.
 
@@ -20,17 +20,17 @@ No meio quantitativo, a metodologia aplicada quando tem poucas alternativas e a 
 
 📌 Aqui nos temos o problema:
 
-"Um vendedor de meias possui:​ 84 pares de meias de lã​ e 24 pares de meias de algodão. Porém os clientes compram Kits de meias, os Kits são compostos da seguinte forma:
+<sub> "Um vendedor de meias possui:​ 84 pares de meias de lã​ e 24 pares de meias de algodão. Porém os clientes compram Kits de meias, os Kits são compostos da seguinte forma:
 ​
 
-Kit A - 2 pares de meias de algodão e 4 pares de meias de lã​.
+<sub> Kit A - 2 pares de meias de algodão e 4 pares de meias de lã​.
 
-Kit B - 8 pares de meias de lã e 2 pares de meias algodão​.
+<sub> Kit B - 8 pares de meias de lã e 2 pares de meias algodão​.
 
-A margem de lucro de cada é:​ Kit A = R$6,00​ e o Kit B = R$8,00.
+<sub> A margem de lucro de cada é:​ Kit A = R$6,00​ e o Kit B = R$8,00.
 ​
 
-Qual deve ser a quantidade vendida de cada Kit para gerar a maior margem de lucro?"
+<sub> Qual deve ser a quantidade vendida de cada Kit para gerar a maior margem de lucro?"
 
 
 ### 🧾 Resolução 
