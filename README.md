@@ -4,7 +4,7 @@ Este espaço reúne os projetos práticos e relatórios desenvolvidos durante a 
 O objetivo deste registro é consolidar o aprendizado por meio de problemas de Modelagem Linear, Programação e Aplicações​, Problemas de Transporte e Transbordo​ e a Teoria das Filas, utilizando ferramentas de mercado como Excel.
 
 # Modelagem Linear e Gráfico 
-Para decidir entre <u>poucas alternativas de solução</u> , o decisor deverá utilizar algum procedimento/metodologia para escolher a “melhor solução” que poderá ser aplicada. 
+Para decidir entre <u> poucas alternativas de solução </u> , o decisor deverá utilizar algum procedimento/metodologia para escolher a “melhor solução” que poderá ser aplicada. 
 No meio quantitativo, a metodologia aplicada quando tem poucas alternativas e a Modelagem que e o processo de selecionar as informações que interessam para conseguir fazer a melhor escolha de acordo com a matemática, juntamente da criação de um Gráfico para achar a região viável e então a “melhor solução”.
 
 📊 Arquivo do próprio excel, sobre esse desenvolvimento :
@@ -186,7 +186,7 @@ Logo; 40 A , 10 B e a solução ótima.
 
 
 # Programação Linear
-Para decidir entre <u>diversas alternativas de solução</u> , o decisor deverá utilizar algum procedimento/metodologia para escolher a “melhor solução” que poderá ser aplicada. 
+Para decidir entre <u> diversas alternativas de solução </u> , o decisor deverá utilizar algum procedimento/metodologia para escolher a “melhor solução” que poderá ser aplicada. 
 No meio quantitativo, a metodologia aplicada quando há diversas alternativas e o processo de Modelagem e a utilização de ferramentas, no nosso caso o Solver, que de acordo com as informações da Modelagem irá oferecer a “melhor solução”.
 
 📊 Arquivo do próprio excel, sobre esse desenvolvimento :
