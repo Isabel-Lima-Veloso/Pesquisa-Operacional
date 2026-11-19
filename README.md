@@ -13,8 +13,7 @@ No meio quantitativo, a metodologia aplicada quando tem poucas alternativas e a 
 📌 Vendedor e Marcenaria : [P.O.xlsx](https://github.com/user-attachments/files/35112139/P.O.xlsx)
 
 
-📌 Modelo pronto e Carpinteiro : [Atividade 1, GPI, Isabel de Lima Veloso. xlsx.xlsx](https://github.com/user-attachments/files/35067501/Atividade.1.GPI.Isabel.de.Lima.Veloso.xlsx.xlsx) ARRUMAR !!!
-
+📌 Modelo pronto e Carpinteiro : [aa. xlsx..xlsx](https://github.com/user-attachments/files/35112544/aa.xlsx.xlsx)
 
 ## Vendedor de meias
 
@@ -190,7 +189,9 @@ Para decidir entre <u> diversas alternativas de solução </u> , o decisor dever
 
 No meio quantitativo, a metodologia aplicada quando há diversas alternativas e o processo de Modelagem e a utilização de ferramentas, no nosso caso o Solver, que de acordo com as informações da Modelagem irá oferecer a “melhor solução”.
 
-📊 Arquivo do próprio excel, sobre esse desenvolvimento : [Pasta3.xlsx](https://github.com/user-attachments/files/35067492/Pasta3.xlsx) ARRUMAR!!!
+📊 Arquivo do próprio excel, sobre esse desenvolvimento : 
+
+📌 Alfaiate e Caminhões: [Pesquisa Operacional.xlsx](https://github.com/user-attachments/files/35112917/Pesquisa.Operacional.xlsx)
 
 ## Alfaiate
 📌 Aqui nos temos o problema: 
@@ -218,6 +219,7 @@ O objetivo é determinar a quantidade a produzir de cada produto para gerar a ma
 
 A modelagem final é:
 
+
 MAX (lucro) = 300 . X + 500 . Y	
 	
 Restrições:
@@ -239,4 +241,20 @@ E utilizamos o Solver para encontrar a “melhor solução”:
 Resultado:
 
 <img width="374" height="180" alt="image" src="https://github.com/user-attachments/assets/eebcb439-4bb5-4e70-b971-fcafb986ca40" />
+
+## Caminhões
+📌 Aqui nos temos o problema: 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+
+
+📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada e utilizamos o Solver para encontrar a “melhor solução”: 
+
+<img width="361" height="385" alt="image" src="https://github.com/user-attachments/assets/1a596805-257e-4191-a9b9-0db5b36dd177" />
+
+Resultado:
+
+<img width="436" height="160" alt="image" src="https://github.com/user-attachments/assets/b502e5a9-2cec-46a9-8e7e-80f2ea497e65" />
+
 
