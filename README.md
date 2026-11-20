@@ -328,7 +328,7 @@ Dados o custo da distribuição entre cada fonte e destino, as produções das f
 
 📊 Arquivo do próprio excel, sobre esse desenvolvimento : 
 
-📌 Problemas com resoluções :
+📌 Problemas com resoluções : [P.O, Metodo de Transporte com problema 2.xlsx](https://github.com/user-attachments/files/35129007/P.O.Metodo.de.Transporte.com.problema.2.xlsx)  [P.O, Metodo de transporte 1,3.xlsx](https://github.com/user-attachments/files/35129005/P.O.Metodo.de.transporte.1.3.xlsx)
 
 ## Problema moodelo
 📌 Aqui nos temos o problema:
@@ -432,11 +432,42 @@ Resultado:
 <img width="1018" height="281" alt="image" src="https://github.com/user-attachments/assets/844eca23-e168-419e-98f7-6d5e1ff06de1" />
 
 ## Problema de Distribuição no transporte
-Se houver mais atividades do que agentes, um agente realizará mais de uma atividade. Assim as restrições de agentes serão maior ou igual (>=).
-​
-Se houver mais agentes do que atividades, as restrições de agentes serão menor ou igual (<=), pois haverá agente ocioso.
-
-
+Na questão do transporte é necessário transbordo (a quantidade transportada de cada unidade de transbordo aos mercados consumidores deve ser igual à quantidade que chega à mesma vindo dos centros de produção)
 
 📌 Aqui nos temos o problema:
 
+<sub> "Considere uma empresa de bebidas com 2 centros de produção - Araraquara e S. José dos Campos, com um suprimento de 800 e 1 000 unidades, respectivamente, e 3 mercados consumidores – S. Paulo, Belo Horizonte e Rio de Janeiro, com demandas respectivas de 500, 400 e 900 unidades. ​
+
+<sub> A empresa dispõe de 2 depósitos para abastecer tais mercados, localizados em Campinas e Barra Mansa. Suponha que os mercados sejam abastecidos somente a partir de tais depósitos. ​
+
+<sub> Os custos unitários de transporte de cada centro de produção para cada depósito, e de cada depósito para cada mercado consumidor é dado pelas tabelas que seguem.
+
+<sub> Custo do centro de suprimento para os depósitos
+
+| Depósitos | Campinas | Barra Mansa |
+|---------------:|------:|-----:|
+| Araraquara | 1 | 3 |
+| S. José dos Campos | 1 | 2 |
+
+
+<sub> Custo dos depósitos até os mercados
+
+| Depósitos | São Paulo | B. Horizonte | R. Janeiro |
+|---------------:|------:|-----:|-----:|
+| Campinas | 1 | 3 | 3 |
+| Barra Mansa | 3 | 4 | 1 |
+
+### 🧾 Resolução 
+O objetivo é determinar a quantidade a produzir de cada produto para gerar a maior margem de lucro, considerando a quantidade disponível de cada recurso.
+
+📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada usando formulas de "SOMARPRODUTO" e "SOMA":
+
+<img width="839" height="247" alt="image" src="https://github.com/user-attachments/assets/8179b0a2-b7f5-45e8-a023-9f5d845a1916" />
+
+E utilizamos o Solver para encontrar a “melhor solução”: 
+
+COLOCAR IMAGEM !!!!
+
+Resultado:
+
+<img width="840" height="244" alt="image" src="https://github.com/user-attachments/assets/b244bc53-6937-4c68-a5f4-c0cc72785cab" />
