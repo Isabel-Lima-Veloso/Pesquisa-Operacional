@@ -257,16 +257,24 @@ O objetivo é determinar a quantidade a produzir de cada produto para gerar a ma
 
 <sub> Identifique as variáveis de decisão:
 
-<sub> X = Quantidade de Terno para produzir
+<sub> X = Quantidade de Caminhão A para alugar
 
 
-<sub> Y = Quantidade de Vestido para produzir 
+<sub> Y = Quantidade de Caminhão B para alugar
 
 <sub> Escreva a função objetivo e as restrições.
 
-
 A modelagem final é:
+	
+MIN (custo) = 0,30 . A + 0,40 + B	
+	
+Restrições:	
 
+Espaco Não.Refrigerado =	4 . A + 3 . B >= 120
+
+Espaco Refrigerado =	2 . A + 3 . B >= 90
+
+<img width="310" height="200" alt="image" src="https://github.com/user-attachments/assets/1cf9ceed-5a13-4d2e-8f1c-b32d2e4024cd" />
 
 📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada e utilizamos o Solver para encontrar a “melhor solução”: 
 
