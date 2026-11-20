@@ -10,7 +10,7 @@ No meio quantitativo, a metodologia aplicada quando tem poucas alternativas e a 
 
 📊 Arquivo do próprio excel, sobre esse desenvolvimento :
 
-📌 Vendedor e Marcenaria : [P.O.xlsx](https://github.com/user-attachments/files/35112139/P.O.xlsx)
+📌 Vendedor : [P.O.xlsx](https://github.com/user-attachments/files/35112139/P.O.xlsx)
 
 
 📌 Modelo pronto e Carpinteiro : [aa. xlsx..xlsx](https://github.com/user-attachments/files/35112544/aa.xlsx.xlsx)
@@ -61,48 +61,6 @@ Meias de algodão: 4.A + 8.B <= 84
 
 📊 Aplicando ela para o Excel, nos fazemos uma tabela de possibilidades e um gráfico linear, onde as linhas se conectam e a “melhor solução” :
 <img width="677" height="445" alt="image" src="https://github.com/user-attachments/assets/0de76b45-ffe6-4dd2-affd-f5491218246b" />
-
-## Marcenaria
-📌 Aqui nos temos o problema:
-
-<sub> "Uma marcenaria deseja estabelecer uma programação diária de produção. Atualmente, são fabricados apenas dois produtos: ​
-
-<sub> 1 modelo de mesa e ​1 modelo de armário.
-
-<sub> A empresa sabe que cada mesa dá uma margem de contribuição para o lucro de $ 4 e cada armário de $ 3.
-​
-<sub> A marcenaria tem limitações em dois recursos:​ Madeira utilizada e o​ tempo de mão-de-obra.
-
-<sub> O processo de produção é tal que, para fazer uma ​ mesa, a fábrica gasta 2 m² de madeira e 2 horas de ​mão-de-obra, e para fazer um armário, a fábrica gasta 3 m² de madeira e 1 hora de mão de obra.​
-
-<sub> Sabendo que a disponibilidade diária de recursos é: 12 m² de madeira e 8 Hh de mão de obra, qual deve ser a quantidade fabricada por dia, de cada produto, para gerar a maior margem de lucro?"
-
-### 🧾 Resolução 
-O objetivo é determinar a quantidade a produzir de cada produto para gerar a maior margem de lucro, considerando a quantidade disponível de cada recurso.
-
-<sub> Identifique as variáveis de decisão:
-
-<sub> M = quantidade a produzir de Mesa​
-
-
-<sub> A = quantidade a produzir de Armário 
-
-<sub> Escreva a função objetivo e as restrições.
-
-
-A modelagem final é:
-
-Max: 4,00.M + 3,00.A
-
-Restrições:
-
-Metros de madeira: 2.M + 3.A <= 12​
-
-
-Horas para fabricar: 2.M + 1.A <= 8
-
-📊 Aplicando ela para o Excel, nos fazemos uma tabela de possibilidades e um gráfico linear, onde as linhas se conectam e a “melhor solução” :
-<img width="680" height="460" alt="image" src="https://github.com/user-attachments/assets/259bad5d-f4cf-4bed-9451-43404179fa32" />
 
 ## Modelo pronto
 📌 Aqui nos temos o problema simples:
@@ -285,7 +243,11 @@ Resultado:
 # Problema de designação 
 Suponha que existam “n” recursos/agentes disponíveis para realizar “n” atividades/tarefas e que os agentes tenham habilidades ou capacidades diferentes e mensuráveis para cada uma das tarefas. O objetivo aqui e determinar para cada agente o que fazer, de forma a otimizar a capacidade total do grupo, os custos ou o retorno financeiro associados.
 
-## Gerentes
+📊 Arquivo do próprio excel, sobre esse desenvolvimento : 
+
+📌 Gerentes e 
+
+## Problema simples
 📌 Aqui nos temos o problema: 
 <sub> "Uma empresa possui 4 gerentes disponíveis para liderar 4 projetos. Estima-se que cada gerente conseguiria trazer um retorno financeiro diferente para cada projeto, em função de seus conhecimentos e habilidades, conforme a tabela a seguir (valores em $1.000).​
 
@@ -298,16 +260,36 @@ Suponha que existam “n” recursos/agentes disponíveis para realizar “n” 
 | Mônica   | 11 | 9  | 10 | 26 |
 | Gabriela | 7  | 8  | 9  | 24 |
 
-# Problema de designação desequilibrado
+### 🧾 Resolução 
+O objetivo é determinar a quantidade a produzir de cada produto para gerar a maior margem de lucro, considerando a quantidade disponível de cada recurso.
+
+📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada:
+<img width="1194" height="262" alt="image" src="https://github.com/user-attachments/assets/b058e5ac-7dc3-4571-9cad-289c5b82ecd8" />
+
+E utilizamos o Solver para encontrar a “melhor solução”: 
+
+COLOCAR IMAGEM !!!!
+
+Resultado:
+<img width="1194" height="259" alt="image" src="https://github.com/user-attachments/assets/aecb3a85-88b0-49c9-a693-76ec7f54ae64" />
+
+## Problema de designação desequilibrado
 Trata da distribuição de tarefas a agentes. É um caso especial do Problema de Transporte com oferta e demanda unitárias.​
 
-Suponha que existam “n” agentes disponíveis para realizar “m” atividades, ou seja, há diferença entre o número de agentes e o número de atividades a realizar. ​
-
-Nesse caso, para otimizar, será necessário que usemos desigualdade nas restrições.​
-
-Se houver mais atividades do que agentes, um agente realizará mais de uma atividade. Assim as restrições de agentes serão maior ou igual (>=).​
-
+Suponha que existam “n” agentes disponíveis para realizar “m” atividades, ou seja, há diferença entre o número de agentes e o número de atividades a realizar. 
+​
+Nesse caso, para otimizar, será necessário que usemos desigualdade nas restrições.
+​
+Se houver mais atividades do que agentes, um agente realizará mais de uma atividade. Assim as restrições de agentes serão maior ou igual (>=).
+​
 Se houver mais agentes do que atividades, as restrições de agentes serão menor ou igual (<=), pois haverá agente ocioso.
+
+📌 Aqui nos temos o problema: 
+
+<sub> "Existem 3 máquinas para processar 4 ordens de produção. Todas as máquinas podem processar qualquer ordem, mas com diferentes custos e tempos de execução, conforme tabelas abaixo.
+Custos ($) | M | OP1 | OP2 | OP3 | OP4 | |----|----:|----:|----:|----:| | M1 | 15 | 61 | 33 | 94 | | M2 | 21 | 58 | 40 | 86 | | M3 | 19 | 68 | 27 | 90 | 
+Tempos (min.) | M | OP1 | OP2 | OP3 | OP4 | |----|----:|----:|----:|----:| | M1 | 32 | 57 | 17 | 56 | | M2 | 27 | 50 | 22 | 48 | | M3 | 18 | 45 | 13 | 60 |
+<sub> Sabendo que as máquinas podem trabalhar ao mesmo tempo e todas as ordens de produção devem ser realizadas em até 120 minutos, como as OPs devem ser distribuídas nas máquinas de modo a minimizar o custo total? "
 # Método de Transporte 
 
 # Transporte com Problema de Distribuição 
