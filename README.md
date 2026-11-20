@@ -274,8 +274,6 @@ Espaco Não.Refrigerado =	4 . A + 3 . B >= 120
 
 Espaco Refrigerado =	2 . A + 3 . B >= 90
 
-<img width="310" height="200" alt="image" src="https://github.com/user-attachments/assets/1cf9ceed-5a13-4d2e-8f1c-b32d2e4024cd" />
-
 📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada e utilizamos o Solver para encontrar a “melhor solução”: 
 
 <img width="361" height="385" alt="image" src="https://github.com/user-attachments/assets/1a596805-257e-4191-a9b9-0db5b36dd177" />
@@ -284,4 +282,32 @@ Resultado:
 
 <img width="436" height="160" alt="image" src="https://github.com/user-attachments/assets/b502e5a9-2cec-46a9-8e7e-80f2ea497e65" />
 
+# Problema de designação 
+Suponha que existam “n” recursos/agentes disponíveis para realizar “n” atividades/tarefas e que os agentes tenham habilidades ou capacidades diferentes e mensuráveis para cada uma das tarefas. O objetivo aqui e determinar para cada agente o que fazer, de forma a otimizar a capacidade total do grupo, os custos ou o retorno financeiro associados.
 
+## Gerentes
+📌 Aqui nos temos o problema: 
+<sub> "Uma empresa possui 4 gerentes disponíveis para liderar 4 projetos. Estima-se que cada gerente conseguiria trazer um retorno financeiro diferente para cada projeto, em função de seus conhecimentos e habilidades, conforme a tabela a seguir (valores em $1.000).​
+
+<sub> Qual gerente deve liderar qual projeto para obter o maior retorno financeiro para a empresa? Qual será o retorno total obtido?"
+
+| Gerentes | Projeto 1 | Projeto 2 | Projeto 3 | Projeto 4 |
+|----------|----------:|----------:|----------:|----------:|
+| Paula    | 13 | 12 | 17 | 32 |
+| Rafaela  | 9  | 7  | 10 | 19 |
+| Mônica   | 11 | 9  | 10 | 26 |
+| Gabriela | 7  | 8  | 9  | 24 |
+
+# Problema de designação desequilibrado
+Trata da distribuição de tarefas a agentes. É um caso especial do Problema de Transporte com oferta e demanda unitárias.​
+
+Suponha que existam “n” agentes disponíveis para realizar “m” atividades, ou seja, há diferença entre o número de agentes e o número de atividades a realizar. ​
+
+Nesse caso, para otimizar, será necessário que usemos desigualdade nas restrições.​
+
+Se houver mais atividades do que agentes, um agente realizará mais de uma atividade. Assim as restrições de agentes serão maior ou igual (>=).​
+
+Se houver mais agentes do que atividades, as restrições de agentes serão menor ou igual (<=), pois haverá agente ocioso.
+# Método de Transporte 
+
+# Transporte com Problema de Distribuição 
