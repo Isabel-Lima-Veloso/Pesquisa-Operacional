@@ -188,7 +188,7 @@ Seda =	1 . X + 2 . Y <= 11
 
 La = 	1 . X + 3 . Y <= 15
 
-📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada:
+📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada usando formulas de "SOMARPRODUTO" e "SOMA":
 
 <img width="376" height="181" alt="image" src="https://github.com/user-attachments/assets/325b38b5-a433-4922-9611-47be14768a3c" />
 
@@ -232,7 +232,7 @@ Espaco Não.Refrigerado =	4 . A + 3 . B >= 120
 
 Espaco Refrigerado =	2 . A + 3 . B >= 90
 
-📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada e utilizamos o Solver para encontrar a “melhor solução”: 
+📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada usando formulas de "SOMARPRODUTO" e "SOMA", e utilizamos o Solver para encontrar a “melhor solução”: 
 
 <img width="361" height="385" alt="image" src="https://github.com/user-attachments/assets/1a596805-257e-4191-a9b9-0db5b36dd177" />
 
@@ -240,14 +240,15 @@ Resultado:
 
 <img width="436" height="160" alt="image" src="https://github.com/user-attachments/assets/b502e5a9-2cec-46a9-8e7e-80f2ea497e65" />
 
-# Problema de designação 
+# Programação de designação 
 Suponha que existam “n” recursos/agentes disponíveis para realizar “n” atividades/tarefas e que os agentes tenham habilidades ou capacidades diferentes e mensuráveis para cada uma das tarefas. O objetivo aqui e determinar para cada agente o que fazer, de forma a otimizar a capacidade total do grupo, os custos ou o retorno financeiro associados.
 
 📊 Arquivo do próprio excel, sobre esse desenvolvimento : 
 
-📌 Gerentes e 
+📌 Problema simples e Problema de designação desequilibrado: [Problema de Distribuicao.xlsx](https://github.com/user-attachments/files/35127937/Problema.de.Distribuicao.xlsx)
 
 ## Problema simples
+
 📌 Aqui nos temos o problema: 
 <sub> "Uma empresa possui 4 gerentes disponíveis para liderar 4 projetos. Estima-se que cada gerente conseguiria trazer um retorno financeiro diferente para cada projeto, em função de seus conhecimentos e habilidades, conforme a tabela a seguir (valores em $1.000).​
 
@@ -263,7 +264,7 @@ Suponha que existam “n” recursos/agentes disponíveis para realizar “n” 
 ### 🧾 Resolução 
 O objetivo é determinar a quantidade a produzir de cada produto para gerar a maior margem de lucro, considerando a quantidade disponível de cada recurso.
 
-📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada:
+📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada usando formulas de "SOMARPRODUTO" e "SOMA":
 <img width="1194" height="262" alt="image" src="https://github.com/user-attachments/assets/b058e5ac-7dc3-4571-9cad-289c5b82ecd8" />
 
 E utilizamos o Solver para encontrar a “melhor solução”: 
@@ -302,6 +303,22 @@ Se houver mais agentes do que atividades, as restrições de agentes serão meno
 | M3 | 18 | 45 | 13 | 60 |
 
 <sub> Sabendo que as máquinas podem trabalhar ao mesmo tempo e todas as ordens de produção devem ser realizadas em até 120 minutos, como as OPs devem ser distribuídas nas máquinas de modo a minimizar o custo total? "
+
+### 🧾 Resolução 
+O objetivo é determinar a quantidade a produzir de cada produto para gerar a maior margem de lucro, considerando a quantidade disponível de cada recurso.
+
+📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada usando formulas de "SOMARPRODUTO" e "SOMA":
+<img width="839" height="205" alt="image" src="https://github.com/user-attachments/assets/24da0c6f-924a-4512-b165-3c71096bb5b8" />
+
+E utilizamos o Solver para encontrar a “melhor solução”: 
+
+COLOCAR IMAGEM !!!!
+
+Resultado:
+<img width="841" height="209" alt="image" src="https://github.com/user-attachments/assets/74e99d61-3fd6-45bb-9981-541d3163b9df" />
+
 # Método de Transporte 
+
+
 
 # Transporte com Problema de Distribuição 
