@@ -10,10 +10,7 @@ No meio quantitativo, a metodologia aplicada quando tem poucas alternativas e a 
 
 📊 Arquivo do próprio excel, sobre esse desenvolvimento :
 
-📌 Vendedor : [P.O.xlsx](https://github.com/user-attachments/files/35112139/P.O.xlsx)
-
-
-📌 Modelo pronto e Carpinteiro : [aa. xlsx..xlsx](https://github.com/user-attachments/files/35112544/aa.xlsx.xlsx)
+📌 Problemas com resoluções : [P.O.xlsx](https://github.com/user-attachments/files/35112139/P.O.xlsx) [aa. xlsx..xlsx](https://github.com/user-attachments/files/35112544/aa.xlsx.xlsx)
 
 ## Vendedor de meias
 
@@ -60,6 +57,7 @@ Meias de lã: 2.A + 2.B <= 24
 Meias de algodão: 4.A + 8.B <= 84
 
 📊 Aplicando ela para o Excel, nos fazemos uma tabela de possibilidades e um gráfico linear, onde as linhas se conectam e a “melhor solução” :
+
 <img width="677" height="445" alt="image" src="https://github.com/user-attachments/assets/0de76b45-ffe6-4dd2-affd-f5491218246b" />
 
 ## Modelo pronto
@@ -81,6 +79,7 @@ R2: 4 . A + 6 . B <= 30
 O objetivo é determinar o lucro, de acordo com a resolução no gráfico linear.
 
 📊 Aplicando ela para o Excel, nos fazemos uma tabela de possibilidades e um gráfico linear, onde as linhas se conectam e a “melhor solução” :
+
 <img width="491" height="215" alt="image" src="https://github.com/user-attachments/assets/c14d3f9e-17f0-40f5-b497-1f7a97c66d7c" />
 
 De acordo com o gráfico, a resposta perfeita é: 3 A , 3 B 
@@ -128,6 +127,7 @@ Metros de pinho : 1 . A + 2 . B <= 80
 Metros de cedro : 1 . A + 1 . B <= 50
 
 📊 Aplicando ela para o Excel, nos fazemos uma tabela de possibilidades e um gráfico linear, onde as linhas se conectam e a “melhor solução” :
+
 <img width="496" height="288" alt="image" src="https://github.com/user-attachments/assets/172ac2df-3efb-41cd-a259-8effe5698c1a" />
 
 Porém, esse gráfico nos dá duas "melhores soluções",
@@ -149,7 +149,7 @@ No meio quantitativo, a metodologia aplicada quando há diversas alternativas e 
 
 📊 Arquivo do próprio excel, sobre esse desenvolvimento : 
 
-📌 Alfaiate e Caminhões: [Pesquisa Operacional.xlsx](https://github.com/user-attachments/files/35112917/Pesquisa.Operacional.xlsx)
+📌 Problemas com resoluções : [Pesquisa Operacional.xlsx](https://github.com/user-attachments/files/35112917/Pesquisa.Operacional.xlsx)
 
 ## Alfaiate
 📌 Aqui nos temos o problema: 
@@ -245,7 +245,7 @@ Suponha que existam “n” recursos/agentes disponíveis para realizar “n” 
 
 📊 Arquivo do próprio excel, sobre esse desenvolvimento : 
 
-📌 Problema simples e Problema de designação desequilibrado: [Problema de Distribuicao.xlsx](https://github.com/user-attachments/files/35127937/Problema.de.Distribuicao.xlsx)
+📌 Problemas com resoluções : [Problema de Distribuicao.xlsx](https://github.com/user-attachments/files/35127937/Problema.de.Distribuicao.xlsx)
 
 ## Problema simples
 
@@ -265,6 +265,7 @@ Suponha que existam “n” recursos/agentes disponíveis para realizar “n” 
 O objetivo é determinar a quantidade a produzir de cada produto para gerar a maior margem de lucro, considerando a quantidade disponível de cada recurso.
 
 📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada usando formulas de "SOMARPRODUTO" e "SOMA":
+
 <img width="1194" height="262" alt="image" src="https://github.com/user-attachments/assets/b058e5ac-7dc3-4571-9cad-289c5b82ecd8" />
 
 E utilizamos o Solver para encontrar a “melhor solução”: 
@@ -272,6 +273,7 @@ E utilizamos o Solver para encontrar a “melhor solução”:
 COLOCAR IMAGEM !!!!
 
 Resultado:
+
 <img width="1194" height="259" alt="image" src="https://github.com/user-attachments/assets/aecb3a85-88b0-49c9-a693-76ec7f54ae64" />
 
 ## Problema de designação desequilibrado
@@ -308,6 +310,7 @@ Se houver mais agentes do que atividades, as restrições de agentes serão meno
 O objetivo é determinar a quantidade a produzir de cada produto para gerar a maior margem de lucro, considerando a quantidade disponível de cada recurso.
 
 📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada usando formulas de "SOMARPRODUTO" e "SOMA":
+
 <img width="839" height="205" alt="image" src="https://github.com/user-attachments/assets/24da0c6f-924a-4512-b165-3c71096bb5b8" />
 
 E utilizamos o Solver para encontrar a “melhor solução”: 
@@ -315,10 +318,125 @@ E utilizamos o Solver para encontrar a “melhor solução”:
 COLOCAR IMAGEM !!!!
 
 Resultado:
+
 <img width="841" height="209" alt="image" src="https://github.com/user-attachments/assets/74e99d61-3fd6-45bb-9981-541d3163b9df" />
 
 # Método de Transporte 
+Um problema bastante comum que muitas vezes pode ser modelado como um problema de programação linear é o problema de transporte. ​Este problema envolve o transporte de alguma carga de diversas fontes a diversos pontos de destino. ​
+
+Dados o custo da distribuição entre cada fonte e destino, as produções das fontes e as capacidades dos destinos, pretende-se minimizar o custo total do transporte.
+
+📊 Arquivo do próprio excel, sobre esse desenvolvimento : 
+
+📌 Problemas com resoluções :
+
+## Problema moodelo
+📌 Aqui nos temos o problema:
+
+<sub> "Com a informação que a Capacidade e a Demanda e igual a 40 toneladas, e com base na imagem abaixo:
+
+<img width="494" height="299" alt="image" src="https://github.com/user-attachments/assets/1426c753-6969-4c7b-b12a-ed2d82535fc4" />
+
+<sub> E com base na tabela:
+
+| Custo | Destino 1 | Destino 2 | Destino 3 |
+|---------------:|------:|-----:|-----:|
+| Fonte 1 | 10 | 3 | 5 |
+| Fonte 2 | 12 | 7 | 9 | 
+
+<sub> Ache a solução perfeita com maior lucro, minimizando custos."
+
+### 🧾 Resolução 
+O objetivo é determinar a quantidade a produzir de cada produto para gerar a maior margem de lucro, considerando a quantidade disponível de cada recurso.
+
+📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada usando formulas de "SOMARPRODUTO" e "SOMA":
+
+<img width="634" height="237" alt="image" src="https://github.com/user-attachments/assets/3a2a512c-b8f3-4a40-b1e5-92c54f0e5578" />
+
+E utilizamos o Solver para encontrar a “melhor solução”: 
+
+COLOCAR IMAGEM !!!!
+
+Resultado:
+
+<img width="636" height="241" alt="image" src="https://github.com/user-attachments/assets/470485a3-6db9-464c-8668-004f0969befa" />
+
+## Prefeitura
+
+📌 Aqui nos temos o problema:
+
+<sub> "A prefeitura de uma cidade está fazendo obras em três bairros. O material para essas obras é transportado de três depósitos 01, 02 e 03 de onde são retiradas 57, 76 e 93 toneladas de material, respectivamente. As obras são destinadas para os bairros D1, D2 e D3, que necessitam diariamente de 41, 80 e 105 toneladas, respectivamente. Os custos unitários para o transporte desse material estão na tabela a seguir. Determinar quanto cada depósito deve enviar para cada bairro de forma a minimizar o custo de transporte. "
+
+| Custo | Destino 1 | Destino 2 | Destino 3 |
+|---------------:|------:|-----:|-----:|
+| Depósito 1 | 7 | 8 | 4 |
+| Depósito 2 | 5 | 6 | 3 |
+| Depósito 3 | 6 | 5 | 4 |
+
+### 🧾 Resolução 
+O objetivo é determinar a quantidade a produzir de cada produto para gerar a maior margem de lucro, considerando a quantidade disponível de cada recurso.
+
+📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada usando formulas de "SOMARPRODUTO" e "SOMA":
+
+<img width="841" height="260" alt="image" src="https://github.com/user-attachments/assets/415afebf-7c88-44b0-9910-dfacd069d3eb" />
+
+E utilizamos o Solver para encontrar a “melhor solução”: 
+
+COLOCAR IMAGEM !!!!
+
+Resultado:
+
+<img width="844" height="259" alt="image" src="https://github.com/user-attachments/assets/00a45b4e-3ec6-4ed1-8b68-b8ccadf6320e" />
+
+## Grande empresa
+
+📌 Aqui nos temos o problema:
+
+<sub> "Uma grande empresa industrial possui cinco filiais e três CDs. Os custos, a capacidade de produção e a demanda dos CDs encontram-se nas tabelas a seguir. A diretoria deseja saber como abastecer os CDs de modo a minimizar o custo total de transporte."
+
+| Fábricas | CD1 | CD2 | CD3 |
+|---------------:|------:|-----:|-----:|
+| Fábrica 1 | 90 | 62 | 76 |
+| Fábrica 2 | 82 | 58 | 70 |
+| Fábrica 3 | 92 | 64 | 80 |
+| Fábrica 4 | 84 | 56 | -X- |
+| Fábrica 5 | 86 | 58 | -X- |
+
+| Fábricas | Quantia | 
+|---------------:|------:|
+| Fábrica 1 | 2000 |
+| Fábrica 2 | 3000 |
+| Fábrica 3 | 2000 |
+| Fábrica 4 | 3000 |
+| Fábrica 5 | 5000 |
+
+| Demanda | Quantia | 
+|---------------:|------:|
+| CD1 | 5000 |
+| CD2 | 3000 |
+| CD3| 2=4000 |
+
+### 🧾 Resolução 
+O objetivo é determinar a quantidade a produzir de cada produto para gerar a maior margem de lucro, considerando a quantidade disponível de cada recurso.
+
+📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada usando formulas de "SOMARPRODUTO" e "SOMA":
+
+<img width="1021" height="282" alt="image" src="https://github.com/user-attachments/assets/ede0dcec-0f10-4420-b17d-cb911209a26d" />
+
+E utilizamos o Solver para encontrar a “melhor solução”: 
+
+COLOCAR IMAGEM !!!!
+
+Resultado:
+
+<img width="1018" height="281" alt="image" src="https://github.com/user-attachments/assets/844eca23-e168-419e-98f7-6d5e1ff06de1" />
+
+## Problema de Distribuição no transporte
+Se houver mais atividades do que agentes, um agente realizará mais de uma atividade. Assim as restrições de agentes serão maior ou igual (>=).
+​
+Se houver mais agentes do que atividades, as restrições de agentes serão menor ou igual (<=), pois haverá agente ocioso.
 
 
 
-# Transporte com Problema de Distribuição 
+📌 Aqui nos temos o problema:
+
