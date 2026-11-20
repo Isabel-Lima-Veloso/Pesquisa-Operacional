@@ -244,9 +244,28 @@ Resultado:
 
 ## Caminhões
 📌 Aqui nos temos o problema: 
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+<sub> "Uma companhia de aluguel de caminhões possui dois tipos de veículos: o tipo A com 2 metros cúbicos de espaço refrigerado e 4 metros cúbicos de espaço não refrigerado e o tipo B com 3 metros cúbicos refrigerados e 3 metros cúbicos não refrigerados.
+
+<sub> Uma fábrica precisa transportar no mínimo 90 metros cúbicos de produto refrigerado e 120 metros cúbicos de produto não refrigerado.
+
+<sub> Quantos caminhões de cada tipo ela deve alugar, de modo a minimizar o custo, se o aluguel do caminhão A era $0,30 por km e o do B, $0,40 por km. 
+
+<sub> Elabore o modelo de programação linear e resolva pelo Solver."
+
+### 🧾 Resolução 
+O objetivo é determinar a quantidade a produzir de cada produto para gerar a maior margem de lucro, considerando a quantidade disponível de cada recurso.
+
+<sub> Identifique as variáveis de decisão:
+
+<sub> X = Quantidade de Terno para produzir
 
 
+<sub> Y = Quantidade de Vestido para produzir 
+
+<sub> Escreva a função objetivo e as restrições.
+
+
+A modelagem final é:
 
 
 📊 Aplicando ela para o Excel, nos fazemos uma planilha estruturada e utilizamos o Solver para encontrar a “melhor solução”: 
