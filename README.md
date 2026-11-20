@@ -287,8 +287,20 @@ Se houver mais agentes do que atividades, as restrições de agentes serão meno
 📌 Aqui nos temos o problema: 
 
 <sub> "Existem 3 máquinas para processar 4 ordens de produção. Todas as máquinas podem processar qualquer ordem, mas com diferentes custos e tempos de execução, conforme tabelas abaixo.
-Custos ($) | M | OP1 | OP2 | OP3 | OP4 | |----|----:|----:|----:|----:| | M1 | 15 | 61 | 33 | 94 | | M2 | 21 | 58 | 40 | 86 | | M3 | 19 | 68 | 27 | 90 | 
-Tempos (min.) | M | OP1 | OP2 | OP3 | OP4 | |----|----:|----:|----:|----:| | M1 | 32 | 57 | 17 | 56 | | M2 | 27 | 50 | 22 | 48 | | M3 | 18 | 45 | 13 | 60 |
+
+| Custos ($) | OP 1 | OP2 | OP3 | OP4 | 
+|------------:|------:|-----:|-----:|-----:| 
+| M1 | 15 | 61 | 33 | 94 | 
+| M2 | 21 | 58 | 40 | 86 | 
+| M3 | 19 | 68 | 27 | 90 | 
+
+
+| Tempos (min.) | OP 1 | OP2 | OP3 | OP4 | 
+|---------------:|------:|-----:|-----:|-----:| 
+| M1 | 32 | 57 | 17 | 56 | 
+| M2 | 27 | 50 | 22 | 48 | 
+| M3 | 18 | 45 | 13 | 60 |
+
 <sub> Sabendo que as máquinas podem trabalhar ao mesmo tempo e todas as ordens de produção devem ser realizadas em até 120 minutos, como as OPs devem ser distribuídas nas máquinas de modo a minimizar o custo total? "
 # Método de Transporte 
 
